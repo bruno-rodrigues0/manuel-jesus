@@ -51,13 +51,14 @@ button {
     padding: 50px;
     border-radius: 20px;
     width: 35%;
-    height: 40%;
 }
 
 .container > div {
     position: absolute;
     padding-top: 70px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .redes {
@@ -71,12 +72,8 @@ button {
     border-radius: 100%;
 }
 
-.curriculo {
-    position: absolute;
-    top: 41%;
-}
 
-.curriculo > a > button {
+a > button {
     padding: 10px;
     border-radius: 10px;
     border: none;
@@ -84,4 +81,31 @@ button {
     color: white;
     font-weight: 900;
     margin: 10px;
+}
+
+.imgs {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+i {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #ececec;
+    display: flex;
+}
+
+footer > p {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
 }
