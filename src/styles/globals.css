@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(90deg, #d9f3d1, #92e09c);
+    backdrop-filter: blur(10px);
+}
+
+/* ese gradiente n ta funfando direito */
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 200px;
+    border-radius: 100%;
+    height: auto;
+    position: relative;
+    top: -140px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.container  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(51, 51, 51);
+    background-color: rgba(173, 173, 194, 0.315);
+    padding: 50px;
+    border-radius: 20px;
+    width: 40%;
+    height: auto;
+}
