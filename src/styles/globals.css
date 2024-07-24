@@ -26,10 +26,10 @@ ul {
     list-style: none;
 }
 
-img {
-    max-width: 200px;
+.perfil {
+    width: 200px;
     border-radius: 100%;
-    height: auto;
+    height: 200px;
     position: relative;
     top: -140px;
 }
@@ -44,10 +44,44 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: start;
     color: rgb(51, 51, 51);
-    background-color: rgba(173, 173, 194, 0.315);
+    background-image: linear-gradient(90deg, white, rgba(247, 247, 255, 0.808));
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
     padding: 50px;
     border-radius: 20px;
-    width: 40%;
-    height: auto;
+    width: 35%;
+    height: 40%;
+}
+
+.container > div {
+    position: absolute;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.redes {
+    position: absolute;
+    top: 50%;
+}
+
+.web {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.curriculo {
+    position: absolute;
+    top: 41%;
+}
+
+.curriculo > a > button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(48, 110, 48);
+    color: white;
+    font-weight: 900;
+    margin: 10px;
 }
