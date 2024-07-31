@@ -119,23 +119,21 @@ footer > p > a {
   font-weight: 800;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .container {
         width: 80%;
-        height: 60%;
+        height: 40%;
     }
 
     .perfil {
         top: -100px;
         width: 140px;
-
     }
 
-    .imgs {
-        width: 60%;
-        margin: 10px auto;
-
+    .container > div {
+        padding-top: 50px;
     }
+
 
     .imgs > i {
         width: 40px;
