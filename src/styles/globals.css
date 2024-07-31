@@ -27,9 +27,9 @@ ul {
 }
 
 .perfil {
-    max-width: 200px;
+    max-width: 180px;
     border-radius: 100%;
-    max-height: 200px;
+    height: 180px;
     position: relative;
     top: -140px;
 }
@@ -114,29 +114,47 @@ footer > p {
     font-weight: 800;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .container {
         width: 80%;
-        height: 60%;
+        height: 40%;
     }
 
     .perfil {
         top: -100px;
         width: 140px;
+        height: 140px;
 
     }
 
-    .imgs {
-        width: 60%;
-        margin: 10px auto;
-
-    }
 
     .imgs > i {
         width: 40px;
         height: 30px;
     }
     
+    footer {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        height: 55%;
+    }
+
+    .perfil {
+        top: -80px;
+        width: 120px;
+        height: 120px;
+    }
+
+    .imgs > i {
+        width: 30px;
+        height: 20px;
+    }
+
     footer {
         margin-top: 30px;
     }
