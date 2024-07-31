@@ -118,3 +118,31 @@ footer > p > a {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+        height: 60%;
+    }
+
+    .perfil {
+        top: -100px;
+        width: 140px;
+
+    }
+
+    .imgs {
+        width: 60%;
+        margin: 10px auto;
+
+    }
+
+    .imgs > i {
+        width: 40px;
+        height: 30px;
+    }
+    
+    footer {
+        margin-top: 30px;
+    }
+}
