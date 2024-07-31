@@ -95,7 +95,7 @@ a > button:hover {
   margin-top: 20px;
 }
 
-i {
+a > i {
   width: 50px;
   height: 50px;
 }
@@ -120,27 +120,26 @@ footer > p > a {
 }
 
 @media (max-width: 1000px) {
-    .container {
-        width: 80%;
-        height: 40%;
-    }
+  .container {
+    width: 80%;
+    height: 40%;
+  }
 
-    .perfil {
-        top: -100px;
-        width: 140px;
-    }
+  .perfil {
+    top: -120px;
+    width: 120%;
+  }
 
-    .container > div {
-        padding-top: 50px;
-    }
+  .container > div {
+    padding-top: 50px;
+  }
 
+  .imgs > a > i {
+    width: 40px;
+    height: 30px;
+  }
 
-    .imgs > i {
-        width: 40px;
-        height: 30px;
-    }
-    
-    footer {
-        margin-top: 30px;
-    }
+  footer {
+    margin-top: 30px;
+  }
 }
